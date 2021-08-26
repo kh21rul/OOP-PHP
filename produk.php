@@ -4,13 +4,16 @@
 // Komik
 // Game
 
+// Sebuah Class
 class Produk
 {
+    // Property
     public $judul = "judul",
         $penulis = "penulis",
         $penerbit = "penerbit",
         $harga = 0;
 
+    // Sebuah Method
     public function getLabel()
     {
         return "$this->penulis, $this->penerbit";
@@ -26,12 +29,14 @@ class Produk
 // $produk2->tambahProperty = "hahaha";
 // var_dump($produk2);
 
+// Object Mendefinisikan sebuah Komik
 $produk3 = new Produk();
 $produk3->judul = "One Punch Man";
 $produk3->penulis = "Yusuke Murata";
 $produk3->penerbit = "Shueisha";
 $produk3->harga = 35000;
 
+// Object Mendefinisikan sebuah Game
 $produk4 = new Produk();
 $produk4->judul = "GTA";
 $produk4->penulis = "David Jones";
