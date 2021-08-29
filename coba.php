@@ -1,10 +1,10 @@
 <?php
 
-class Coba
+class Coba          // Sebuah Class
 {
 }
 
-
+// Object
 $a = new Coba();
 $b = new Coba();
 $c = new Coba();
